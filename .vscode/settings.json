@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/webp/libwebp",
+    "files.associations": {
+        "stdlib.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "functional": "c"
+    },
+    "cmake.configureOnOpen": false
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Emscripten",
+    "image": "emscripten/emsdk:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack"
+            ]
+        }
+    },
+    "remoteUser": "emscripten"
+}
