@@ -1,12 +1,14 @@
 {
     "name": "Emscripten",
-    "image": "emscripten/emsdk:latest",
+    "image": "mcr.microsoft.com/devcontainers/base:buster",
+    "features": {
+        "ghcr.io/ebaskoro/devcontainer-features/emscripten:1": {}
+    },
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-vscode.cpptools-extension-pack"
             ]
         }
-    },
-    "remoteUser": "emscripten"
+    }
 }
